@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  box-sizing: border-box;
+  font-weight: 500;
+}
+
+:root {
+  --primary-Cyan: hsl(180, 66%, 49%);
+  --primary-dark-voilet: hsl(257, 27%, 26%);
+  --secondary-red: hsl(0, 87%, 67%);
+  --neutral-gray: hsl(0, 0%, 75%);
+  --neutral-grayish-violet: hsl(257, 7%, 63%);
+  --neutral-very-dark-blue: hsl(255, 11%, 22%);
+  --neutral-very-dark-violet: hsl(260, 8%, 14%);
+  --secondary-font-weight: 700;
+}
+
+/********************* General styles **********************************/
+.custom-links {
+  color: var(--neutral-grayish-violet);
+}
+
+.custom-links:hover {
+  cursor: pointer;
+  color: var(--primary-dark-voilet);
+}
+
+.custom-btn {
+  cursor: pointer;
+  font-weight: var(--secondary-font-weight);
+}
+
+/********************** End of General styles ****************************/
+
+/******************** Hero section styles  *********************************/
+
+.hero-title {
+  font-size: 80px;
+  font-weight: var(--secondary-font-weight);
+}
+
+.hero-text {
+  color: var(--neutral-grayish-violet);
+  line-height: 2.5rem;
+  width: 85%;
+}
+
+/******************** End Hero section styles  *********************************/
+
+/******************** LinkInput section styles  *********************************/
+
+.link-shorten-section {
+  width: 100%;
+  background-color: var(--neutral-gray);
+  margin-top: 200px;
+  position: relative;
+}
+
+.input-container {
+  width: 90%;
+  background-color: var(--primary-dark-voilet);
+  background-image: url('./images/bg-shorten-desktop.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  position: absolute;
+  left: 5%;
+  margin-top: -90px;
+}
+
+.error-text {
+  color: var(--secondary-red);
+  font-size: 16px;
+  font-style: italic;
+  margin-top: 5px;
+}
+
+.custom-border {
+  border: 2px solid var(--secondary-red);
+}
+
+.generated-link {
+  width: 92%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.custom-card-icon {
+  margin-top: -50px;
+}
+
+.call-to-action {
+  background-color: var(--primary-dark-voilet);
+  background-image: url('./images/bg-boost-desktop.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
